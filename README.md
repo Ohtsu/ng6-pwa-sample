@@ -16,7 +16,7 @@ _Video Explanation (English)_,
 
 
 ## Overview 
-   - _Ng6PwaSample_ is a sample PWA project created by `ng add @angular/pwa` commend in Angular6.
+   - _Ng6PwaSample_ is a sample PWA project created by `ng add @angular/pwa` command in Angular6.
 
    - _Ng6PwaSample_ uses mat-grid, mat-card, mat-menu, mat-icon and so on.
 
