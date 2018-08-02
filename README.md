@@ -1,5 +1,5 @@
 
-# _Ng6PwaSample_ Dashboard sample based on Angular Material in Angular6
+# _Ng6PwaSample_ PWA sample project created by Angular6
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
@@ -66,7 +66,7 @@ Open _http://localhost:8080_ in your browser.
 
   - ***First Page*** 
 
-  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/ng6-material/Dashboard03.gif" width= "640" >
+  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/ng6-pwa/dashboard01.png" width= "640" >
 
 
 ## Check offline mode
@@ -75,7 +75,11 @@ Then type `control + shift + i` for opening developer tool in Chrome.
 Open `Application Tab` and `Service Workers`.
 Try to check `Offline` and refresh the page.
 
-You will find no error message even though it is in offline mode.
+In the case of a normal Web application, when offline, an error message is displayed as follows.
+
+  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/ng6-pwa/offline01.png" width= "640" >
+
+However, if you use the PWA function, such an error message will not be displayed even though it is in offline mode.
 Because the service worker detected offline and used the cache.
 
 ## Version
