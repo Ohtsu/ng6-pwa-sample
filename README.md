@@ -82,6 +82,8 @@ In the case of a normal Web application, when offline, an error message is displ
 However, if you use the PWA function, such an error message will not be displayed even though it is in offline mode.
 Because the service worker detected offline and used the cache.
 
+  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/ng6-pwa/offline_ok01.png" width= "640" >
+
 ## Version
 
    - Ng6PwaSample               : 0.0
