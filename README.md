@@ -3,20 +3,20 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
-_Ng6PwaSample_ is a initial set for those who want to make dashboards by Angular Material in Angular6.
+_Ng6PwaSample_ is a sample project for those who want to realize PWA (Progressive Web Apps) in Angular6.
 
 _This full source code_,
 <https://github.com/Ohtsu/ng6-pwa-sample>
 
 _Video Explanation (Japanese)_,
-<https://youtu.be/3mkYx1YFGoc>
+<https://youtu.be/XMA1gyyYEr8>
 
 _Video Explanation (English)_,
-<https://youtu.be/s4vXOOU9sp0>
+<https://youtu.be/b1SUOBI1CiA>
 
 
 ## Overview 
-   - _Ng6PwaSample_ is a dashboard sample based on Angular Material in Angular6.
+   - _Ng6PwaSample_ is a sample PWA project created by `ng add @angular/pwa` commend in Angular6.
 
    - _Ng6PwaSample_ uses mat-grid, mat-card, mat-menu, mat-icon and so on.
 
@@ -28,6 +28,7 @@ _Video Explanation (English)_,
    - node.js
    - Typescript2
    - Angular6
+   - http-server
 
 
 ## Installation
@@ -37,30 +38,57 @@ To install this project, run simply:
 ```bash
 $ npm install 
 ```
-## Start project
+## Build project
 
-If you start your local server as follows, you can get many kinds of charts in your dashboard by accessing **http://localhost:4200**.
-
+You need to build the project in production mode. 
 
 ```bash
-$ ng serve -o
+$ ng build --prod
 ```
+
+## Start local server
+
+You will find `dist` directory. Change directory into `dist/Ng6PwaSample`.
+If you have not installed _http-server_ yet, install it as follows.
+
+```bash
+$ npm install http-server -g
+```
+
+Then type as follows.
+
+```bash
+$ http-server --port 8080
+```
+
+Open _http://localhost:8080_ in your browser.
+
 
   - ***First Page*** 
 
   <img src="https://raw.githubusercontent.com/Ohtsu/images/master/ng6-material/Dashboard03.gif" width= "640" >
 
 
+## Check offline mode
+
+Then type `control + shift + i` for opening developer tool in Chrome.
+Open `Application Tab` and `Service Workers`.
+Try to check `Offline` and refresh the page.
+
+You will find no error message even though it is in offline mode.
+Because the service worker detected offline and used the cache.
+
 ## Version
 
-   - Ng6PwaSample       : 0.0
-   - Angular6                   : 6.0.0
+   - Ng6PwaSample               : 0.0
+   - Angular6                   : 6.0.3
    - TypeScript                 : 2.7.2
    - @angular/material          : 6.2.1
-   - d3.js          		: 4.3.0
-   - ng6-o2-chart          	: 0.4.0
+   - @angular/pwa               : 0.6.8
+   - @angular/service-worker    : 6.0.3
+   - d3.js          		        : 4.3.0
+   - ng6-o2-chart          	    : 0.4.0
    
-
 
 ## Reference
 
@@ -77,7 +105,7 @@ $ ng serve -o
 
 ## Change Log
 
- - 2018.7.21 version 0.0 uploaded 
+ - 2018.8.2 version 0.0 uploaded 
 
 ## Copyright
 
