@@ -9,6 +9,11 @@
         "/index.html",
         "/*.css",
         "/*.js"
+      ],
+      "urls": [
+        "https://raw.githubusercontent.com/Ohtsu/data/master/o2-chart/japan.geojson",
+        "https://fonts.googleapis.com/icon?family=Material+Icons",
+        "https://fonts.googleapis.com/css?family=Roboto:300,400,500"
       ]
     }
   }, {
