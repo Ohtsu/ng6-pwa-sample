@@ -98,6 +98,21 @@ Because the service worker detected offline and used the cache.
 
 ## Reference
 
+- "PWAで何ができるようになるのか", 
+<https://speakerd.s3.amazonaws.com/presentations/c9b547f51eed4304ad1c6aa5f9024c1d/PWA%E3%81%A6%E3%82%99%E4%BD%95%E3%81%8B%E3%82%99%E3%81%A6%E3%82%99%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8B.pdf>
+
+- "PWA 入門 〜iOS SafariでPWAを体験するまで〜 2018年6月版", 
+<https://qiita.com/umamichi/items/0e2b4b1c578e7335ba20>
+
+- "Great Progressive Web App Experiences with Angular", 
+<https://www.youtube.com/watch?v=C8KcW1Nj3Mw&feature=share>
+
+- "Angular Service Worker Tutorial", 
+<https://www.youtube.com/watch?v=5YtNQJQu31Y&feature=share>
+
+- "Build your First Angular PWA from Scratch (Angular 6 PWA Tutorial)", 
+<https://www.youtube.com/watch?v=othhfZ0mGjU&feature=share>
+
 - "Schematics", 
 <https://material.angular.io/guide/schematics>
 
@@ -108,7 +123,7 @@ Because the service worker detected offline and used the cache.
 - "Angular 5, Angular 6用 カスタムライブラリの作成: 完全ステップ・バイ・ステップ・ガイド", 
 <https://www.udemy.com/angular5-l/>
 
-
+ 
 ## Change Log
 
  - 2018.8.2 version 0.0 uploaded 
